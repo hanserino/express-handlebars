@@ -3,7 +3,7 @@
 var Promise = global.Promise || require('promise');
 
 var express = require('express'),
-    exphbs  = require('../../'), // "express-handlebars"
+    exphbs  = require('../'), // "express-handlebars"
     helpers = require('./lib/helpers');
 
 var app = express();
